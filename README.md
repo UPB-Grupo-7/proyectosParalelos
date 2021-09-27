@@ -1,2 +1,2 @@
-# proyectosParalelos
-Aquí se almacenan todos los proyectos paralelos que no están en los Sprints
+# ProyectosParalelos
+Se almacenaran todos los proyectos paralelos que no se encuentran en los "Sprints".

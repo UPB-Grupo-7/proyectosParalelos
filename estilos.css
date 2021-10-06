@@ -132,7 +132,7 @@ li:first-child {
     padding: 12px;
 }
 
-button {
+#btn_irRegistro {
     position: absolute;
     top: 94%;
     left: 19%;
@@ -335,4 +335,39 @@ button:hover::after {
 
 h1 {
     padding: 60px;
+}
+
+/* para dar el estilo a registro*/
+
+#form_registro_usuario {
+    width: 400px;
+    background: #16151b;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#form_registro_usuario h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#form_registro_usuario p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#form_registro_usuario a {
+    color: white;
+    text-decoration: none;
+}
+
+#form_registro_usuario a:hover {
+    color: white;
+    text-decoration: underline;
 }

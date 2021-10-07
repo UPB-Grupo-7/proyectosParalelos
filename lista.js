@@ -1,6 +1,6 @@
 const input = document.querySelector("input");
 const addBtn = document.querySelector(".btn-add");
-const ul = document.querySelector("ul");
+const ul = document.querySelector(".ul");
 const empty = document.querySelector(".empty");
 
 addBtn.addEventListener("click", (e) => {  //crear evento
@@ -41,3 +41,8 @@ function addDeleteBtn() {
 
 return deleteBtn; //regresar boton eliminar
 }
+
+const btnToggle = document.querySelector('.toggle-btn');
+btnToggle.addEventListener('click', function() {
+    document.getElementById('landing_navbar').classList.toggle('active');
+});

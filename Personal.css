@@ -51,8 +51,8 @@ body {
     bottom: -70px;
     width: 115%;
     height: 20%;
-    background: radial-gradient(rgba(0, 0, 0, 0.15), transparent, transparent);
-    border-radius: 50%;
+    /*background: radial-gradient(rgba(0, 0, 0, 0.15), transparent, transparent);
+    border-radius: 50%;*/
     transition: 0.5s;
 }
 

@@ -6,11 +6,26 @@
 
 	<meta charset="utf-8">
 	<title>Formulario Registro</title>
-	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="fomulario.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 
 <body>
+	<nav id="landing_navbar" class="active">
+        <img src="img/A..png" id="navbar_logo">
+        <div class="toggle-btn"><span>&#9776;</span></div>
+        <div class="face-btn"><span><a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i></span></div>
+        <div class="twitter-btn"><span><a href="#"></a><i class="fa fa-twitter" aria-hidden="true"></i></span></div>
+        <div class="inst-btn"><span><a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></span></div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="paginaPsicologia.html">Pagina de salud mental</a></li>
+        </ul>
+        <button id="btn_irRegistro"><a id="link_registro" href="registro.html">Registrarse</a></button>
+    </nav>
 
 	<form id="form_registro_usuario">
 
@@ -22,6 +37,6 @@
 		<button type="submit" id="btn_enviar_registro" onsubmit="verifyPassword()">Enviar</button>
 		
 	</form></section>
-<script src="validaciones2.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

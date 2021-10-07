@@ -377,8 +377,8 @@ body {
     background: conic-gradient(
     #55b7a4 0%,
     #4ca493 40%,
-    #fff 40%,
-    #fff 60%,
+    rgb(153, 226, 236) 40%,
+    rgb(153, 226, 236) 60%,
     #336d62 60%,
     #2a5b52 100%
     );
@@ -392,7 +392,7 @@ body {
 }
 
 .pointer {
-    background-color: #fff;
+    background-color: rgb(149, 223, 233);
     border-radius: 50%;
     height: 20px;
     width: 20px;

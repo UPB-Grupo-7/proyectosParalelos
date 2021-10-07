@@ -139,6 +139,13 @@ li:first-child {
     transform: translate(-5%, -75%);
 }
 
+#btn_Invitado {
+    position: absolute;
+    top: 85%;
+    left: 19%;
+    transform: translate(-5%, -75%);
+}
+
 button {
     background: none;
     color: #ccc;

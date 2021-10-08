@@ -33,8 +33,12 @@ textarea{
 
 #nombreC{
     width: 95%;
-    font: 50px;
     height: 2em;
+}
+
+input{
+    height: 2em;
+    width: 10%;
 }
 
 section {
@@ -493,7 +497,7 @@ body {
 
 #acompanamiento{
     position: absolute;
-    top: 20.5%;
+    top: 21.3%;
     left: 52.5%;
 }
 

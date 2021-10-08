@@ -24,6 +24,19 @@ body {
     color: #ffffff;
 }
 
+textarea{
+    width: 95%;
+    max-width: 95%;
+    min-width: 95%;
+    height: 5em;
+}
+
+#nombreC{
+    width: 95%;
+    font: 50px;
+    height: 2em;
+}
+
 section {
     position: absolute;
     padding: 100px;
@@ -511,4 +524,3 @@ body {
 ::-webkit-scrollbar-thumb:hover{
     background-color: #1c2bff;
 }
-

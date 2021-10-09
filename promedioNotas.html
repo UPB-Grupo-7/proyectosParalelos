@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Promedio de Notas</h1>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td> * </td>
+                <td><center>1</center></td>
+                <td><center>2</center></td>
+                <td><center>3</center></td>
+                <td><center>4</center></td>
+                <td><center>TOTAL</center></td>
+            </tr>
+            <tr>
+                <td>Tareas</td>
+                <td><input type="text", id="tarea1", size="2"></td>
+                <td><input type="text", id="tarea2", size="2"></td>
+                <td><input type="text", id="tarea3", size="2"></td>
+                <td><input type="text", id="tarea4", size="2"></td>
+                <td id="outputTar"></td>
+                <td><input type="button", value="Calcular", onclick="calcularTar()"></td>
+            </tr>
+            <tr>
+                <td>Laboratorios</td>
+                <td><input type="text", id="lab1", size="2"></td>
+                <td><input type="text", id="lab2", size="2"></td>
+                <td><input type="text", id="lab3", size="2"></td>
+                <td><input type="text", id="lab4", size="2"></td>
+                <td id="outputLab"></td>
+                <td><input type="button", value="Calcular", onclick="calcularLab()"></td>
+            </tr>
+            <tr>
+                <td>Examenes</td>
+                <td><input type="text", id="exa1", size="2"></td>
+                <td><input type="text", id="exa2", size="2"></td>
+                <td><input type="text", id="exa3", size="2"></td>
+                <td><input type="text", id="exa4", size="2"></td>
+                <td id="outputExa"></td>
+                <td><input type="button", value="Calcular", onclick="calcularExa()"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="button", value="Calcular", onclick="calculator()">
+
+
+
+    </body>
+
+    <script type="text/javascript">
+
+        function calcularTar(){
+            var a = parseFloat(document.getElementById('tarea1').value*0.20);
+            var b = parseFloat(document.getElementById('tarea2').value*0.30);
+            var c = parseFloat(document.getElementById('tarea3').value*0.10);
+            var d = parseFloat(document.getElementById('tarea4').value*0.40);
+            var total = a + b + c + d;
+            var display = document.getElementById('outputTar');
+
+            display.innerHTML = '= ' + total;
+        }
+
+        function calcularLab(){
+            var a = parseFloat(document.getElementById('lab1').value*0.13);
+            var b = parseFloat(document.getElementById('lab2').value*0.27);
+            var c = parseFloat(document.getElementById('lab3').value*0.05);
+            var d = parseFloat(document.getElementById('lab4').value*0.55);
+            var total = a + b + c + d;
+            var display = document.getElementById('outputLab');
+
+            display.innerHTML = '= ' + total;
+        }
+
+        function calcularExa(){
+            var a = parseFloat(document.getElementById('exa1').value*0.25);
+            var b = parseFloat(document.getElementById('exa2').value*0.25);
+            var c = parseFloat(document.getElementById('exa3').value*0.25);
+            var d = parseFloat(document.getElementById('exa4').value*0.25);
+            var total = a + b + c + d;
+            var display = document.getElementById('outputExa');
+
+            display.innerHTML = '= ' + total;
+        }
+
+    </script>
+
+</html>
